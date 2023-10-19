@@ -4,19 +4,19 @@ const NavBar = () => {
   return (
     <div>
       <nav>
-        <div class="nav-wrapper" >
-          <a href="#" class="brand-logo">
+        <div className="nav-wrapper white" >
+          <a href="#" className="brand-logo left">
             Logo
           </a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <ul id="nav-mobile" className="right">
             <li>
-              <a href="sass.html">home</a>
+              <a href="sass.html">SignIn</a>
             </li>
             <li>
-              <a href="badges.html">signIn</a>
+              <a href="badges.html">signUp</a>
             </li>
             <li>
-              <a href="collapsible.html">signUp</a>
+              <a href="collapsible.html">Profile</a>
             </li>
           </ul>
         </div>
