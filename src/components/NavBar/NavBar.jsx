@@ -1,22 +1,23 @@
 import React from "react";
 import './NavBar.css'
+import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <div>
       <nav>
         <div className="nav-wrapper white" >
-          <a href="#" className="brand-logo left">
-            Logo
-          </a>
+          <Link to={'/'} href="/" className="brand-logo left">
+            Instagram
+          </Link>
           <ul id="nav-mobile" className="right">
             <li>
-              <a href="sass.html">SignIn</a>
+              <Link to={"/signin"}> SignIn</Link>
             </li>
             <li>
-              <a href="badges.html">signUp</a>
+              <Link to={'/signup'} >signUp</Link>
             </li>
             <li>
-              <a href="collapsible.html">Profile</a>
+              <Link to={'/profile'}>Profile</Link>
             </li>
           </ul>
         </div>
