@@ -11,7 +11,7 @@ const home = () => {
       </div>
     
       <div className='card-content'>
-      <i class="material-icons">favorite</i>
+      <i className="material-icons" style={{color:'red'}}>favorite</i>
         <h6>title</h6>
         <p>this is a amazing post</p>
         <input type='text'placeholder='add comment'></input>
@@ -24,7 +24,7 @@ const home = () => {
         <img src='https://i.pinimg.com/236x/51/44/71/5144713488ef4a7f88c98ebe34fff03a.jpg'></img>
       </div>
       <div className='card-content'>
-      <i class="material-icons">favorite</i>
+      <i className="material-icons"style={{color:'red'}}>favorite</i>
         <h6>title</h6>
         <p>this is a amazing post</p>
         <input type='text'placeholder='add comment'></input>
@@ -37,7 +37,7 @@ const home = () => {
         <img src='https://i.pinimg.com/236x/51/44/71/5144713488ef4a7f88c98ebe34fff03a.jpg'></img>
       </div>
       <div className='card-content'>
-      <i class="material-icons">favorite</i>
+      <i className="material-icons" style={{color:'red'}}>favorite</i>
         <h6>title</h6>
         <p>this is a amazing post</p>
         <input type='text'placeholder='add comment'></input>
